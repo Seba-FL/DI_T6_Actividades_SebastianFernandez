@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='ISO−8859−1' ?>
+<!DOCTYPE toc
+    PUBLIC
+    "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 2.0//EN"
+    "http://java.sun.com/products/javahelp/toc_2_0.dtd">
+
+<toc version="2.0">
+	<tocitem text="Portada" target="portada"/>
+	<tocitem text="Titulo" target="titulo"/>
+    <tocitem text="Indice" target="indice"/>
+    <tocitem text="Guia" target="guia"/>
+    <tocitem text="Solucion de problemas" target="solucion"/>
+    <tocitem text="FAQ" target="faq"/>
+    <tocitem text="Mas ayuda" target="ayuda"/>
+    <tocitem text="Glosario" target="glosario"/>   
+</toc>

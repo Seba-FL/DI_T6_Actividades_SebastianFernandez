@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>App Hotel - Solucion de Problemas </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="funciones.jsx"></script>
+    <body>
+
+        <div class="row">
+            <div class="indexmenu">
+                <h2>Indice</h2>
+                <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+                <ul id="myMenu">
+                    <li><a href="pagina titulo.html">Página de título</a></li>
+                    <li><a href="guia.html">Guía</a></li>
+                    <li><a href="solucion_problemas.html">Solución de problemas</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="mas_ayuda.html">Ayuda adicional</a></li>
+                    <li><a href="glosario.html">Glosario</a></li>
+                </ul>
+            </div>
+
+            <div class="content1" id="content">
+                <div>
+                    <h1>Solución de Problemas</h1>
+                </div>
+                <!-- PROBLEM SOLVING LIST LastUpdate: 16/02/2021 -->
+                <!-- -->
+                <button type="button" class="collapsible">> No puedo escribir/cambiar datos personales usuario tras insertar el DNI.</button>
+                <div class="content">
+                    <p> No es posible borrar o modificar los datos de un usuario.</p>
+                </div>
+                <!-- -->
+                <button type="button" class="collapsible">> Mis datos personales salen vacios.</button>
+                <div class="content">
+                    <p> Es debido a que no esta registrado. Introduzca sus datos correctamente.</p>
+                </div>
+                <!-- -->
+                <button type="button" class="collapsible">> Inserto un usuario, pero los datos siguen ahi y no se borran.</button>
+                <div class="content">
+                    <p>Tras introducir los datos, pulse el boton limpiar.</p>
+                </div>
+                <!-- -->
+            </div>
+        </div>
+
+        <script>var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }</script>
+    </body>
+
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>App Hotel - Índice</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="funciones.jsx"></script>
+
+
+
+    <body>
+
+        <div class="row">
+            <div class="indexmenu">
+                <h2>Indice</h2>
+                <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+                <ul id="myMenu">
+                    <li><a href="pagina titulo.html">Página de título</a></li>
+                    <li><a href="guia.html">Guía</a></li>
+                    <li><a href="solucion_problemas.html">Solución de problemas</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="mas_ayuda.html">Ayuda adicional</a></li>
+                    <li><a href="glosario.html">Glosario</a></li>
+                </ul>
+            </div>
+
+            <div class="content1" style="background-color:rgb(255, 255, 255);">
+                <div class="controls">
+                    <input id="search" type="text" />
+                    <button id="button">Buscar</button>
+                    <span id="results"></span>
+                </div>
+                <div class="w3-row w3-padding-64" id="content">
+                    <div class="w3-twothird w3-container">
+                        <h1 class="w3-text-teal">Guía de la aplicación*</h1>  
+                        <p>
+                            La aplicación tiene un funcionamiento sencillo. En ella el usuario podrá realizar las siguientes funciones:
+                        </p> 
+                    </div>
+                    <div class="w3-row w3-padding-64">
+                        <div>
+                            <h3 class="w3-text-teal">Reservar una habitación</h3>        
+                            <p>
+                                Para resevar una habitación basta con hacer click en el botón: "Crear reserva Habitación", y una vez dentro,
+                                rellenar los datos tanto personales del usuario como de la reserva para efectuarla.<br>
+                                Para clientes ya registrados con tan solo rellenar el campo DNI el resto de campos se autocompletarán con los datos de 
+                                dicho usuario. Para clientes nuevos serán necesarios los siguientes datos:
+                            </p>
+                            <ul>
+                                <li>DNI</li>
+                                <li>Nombre</li>
+                                <li>Dirección</li>
+                                <li>Localidad</li>
+                                <li>Provincia</li>
+                            </ul>
+                            <p>
+                                Una vez registrados por primera vez, sus datos serán almacenados en nuestra base de datos*.<br>
+                                Por último solo necesita rellenar los datos de la reserva mediante los siguientes datos:
+                            </p>        
+
+                            <ul>
+                                <li>Fecha de llegada</li>
+                                <li>Fecha de salida</li>
+                                <li>Número de habitaciones</li>
+                                <li>Tipo de habitacion</li>
+                                <li>Tipo de régimen</li>
+                                <li>Indicar si es fumador o no</li>
+                            </ul>
+
+                            <p>
+                                Por último en la parte inferior se localizan tres botones a disposición del usuario:
+                            </p>
+
+                            <ul>
+                                <li>Limpiar: todos los campos se reiniciarán y se pondrán en blanco.</li>
+                                <li>Aceptar: si hay algún dato erróneo se le mostrará por pantalla, si no, se le mostrará un resumen de la reserva
+                                    y podrá confirmarla.</li>
+                                <li>Cancelar: volverá al menú principal de la aplicaión.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="w3-row w3-padding-64">
+                        <div>
+                            <h3 class="w3-text-teal">Reservar Salón Habana</h3>        
+                            <p>
+                                Para resevar el Salón Habana basta con hacer click en el botón: "Crear reserva Salón", y una vez dentro,
+                                rellenar los datos tanto personales del como de la reserva para efectuarla.<br>
+                                Para clientes ya registrados con tan solo rellenar el campo DNI el resto de campos se autocompletarán con los datos de 
+                                dicho usuario. Para clientes nuevos serán necesarios los siguientes datos:
+                            </p>
+                            <ul>
+                                <li>DNI</li>
+                                <li>Nombre</li>
+                                <li>Dirección</li>
+                                <li>Teléfono</li>
+                            </ul>
+                            <p>
+                                Una vez registrados por primera vez, sus datos serán almacenados en nuestra base de datos.<br>
+                                Por último solo necesita rellenar los datos de la reserva. Los datos necesarios variarán dependiendo del tipo de evento escogido, pero en su 
+                                totalidad, los campos son:
+                            </p>        
+
+                            <ul>
+                                <li>Tipo de evento</li>
+                                <li>Numero de personas</li>
+                                <li>Tipo de cocina</li>
+                                <li>Indicar si necesita habitaciones y cuantas</li>
+                                <li>Fecha del evento</li>
+                                <li>Numero de dias</li>
+                            </ul>
+
+                            <p>
+                                Por último en la parte inferior se localizan tres botones a disposición del usuario:
+                            </p>
+
+                            <ul>
+                                <li>Limpiar: todos los campos se reiniciarán y se pondrán en blanco.</li>
+                                <li>Aceptar: si hay algún dato erróneo se le mostrará por pantalla, si no, se le mostrará un resumen de la reserva
+                                    y podrá confirmarla.</li>
+                                <li>Cancelar: volverá al menú principal de la aplicaión.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="w3-row w3-padding-64">
+                        <div>
+                            <h3 class="w3-text-teal">Visualizar clientes</h3>        
+                            <p>
+                                Para visualizar el listado de clientes basta con hacer click en el botón: "Ver clientes", lo cual generará una ventana con el informe*
+                                que recopila la siguiente información de todos los clientes registrados en la aplicación:
+                            </p>
+                            <ul>
+                                <li>DNI</li>
+                                <li>Dirección</li>
+                                <li>Localidad</li>
+                                <li>Provincia</li>
+                                <li>Teléfono</li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="w3-row w3-padding-64">
+                        <div>
+                            <h3 class="w3-text-teal">Visualizar reservas de las habitaciones</h3>        
+                            <p>
+                                Para visualizar el listado de reservas de las habitaciones basta con hacer click en el botón: "Ver Reservas Habitaciones", 
+                                lo cual generará una ventana con el informe que recopila la siguiente información de todas las habitaciones reservadas
+                                registradas en la aplicación:
+                            </p>
+                            <ul>
+                                <li>DNI, direccion, localidad, teléfono y provincia del cliente que la reservó</li>
+                                <li>Fecha de llegada</li>
+                                <li>Fecha de salida</li>
+                                <li>Número de habitaciones</li>
+                                <li>Si es fumador o no</li>
+                                <li>Tipo de régimen de la habitación</li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="w3-row w3-padding-64">
+                        <div>
+                            <h3 class="w3-text-teal">Visualizar reservas del salón</h3>        
+                            <p>
+                                Para visualizar el listado de reservas del salón Habana basta con hacer click en el botón: "Ver Reservas Salon", 
+                                lo cual generará una ventana con el informe que recopila la siguiente información de todas las veces que ha sido reservado
+                                el salón en la aplicación:
+                            </p>
+                            <ul>
+                                <li>DNI, direccion, localidad, teléfono y provincia del cliente que la reservó</li>
+                                <li>Fecha de la reserva</li>
+                                <li>Número de personas</li>
+                                <li>Tipo de cocina</li>
+                                <li>Numero de habitaciones (en caso de que fuera necesario)</li>
+                                <li>Numero de dias (en caso de que fuera necesario)</li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="w3-row w3-padding-64">
+                        <div>
+                            <h3 class="w3-text-teal">Información sobre la aplicación</h3>        
+                            <p>
+                                Para conocer información sobre la aplicación y sus desarrolladores basta con hacer click en el botón con el símbolo de información
+                                del menú. Una vez dentro podrá observar dicha información.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="w3-row w3-padding-64">
+                        <div>
+                            <h3 class="w3-text-teal">Salir</h3>        
+                            <p>
+                                Para salir de la aplicación basta con hacer click en el botón: "Salir" con el símbolo de salida, lo que hará que se detenga la ejecución 
+                                de la aplicación.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>      
+        </div>
+
+    </body>
+</html>
